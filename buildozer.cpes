@@ -1,0 +1,14 @@
+[app]
+title = Battery Control Alerter
+package.name = batterycontrolalerter
+package.domain = org.example
+source.include_exts = py,png,jpg,kv,atlas
+source.include_patterns = open/*
+icon.filename = icon/Logo.png
+log_level = 2
+requirements = python3,kivy
+orientation = portrait
+
+[buildozer]
+log_level = 2
+warn_on_root = 0
